@@ -1,0 +1,26 @@
+﻿{
+  "version": "1.0.4-beta",
+  "title": "FormulaEngine.Net",
+  "description": "FormulaEngine.Net Is a Simple Engine For .Net APP or .NetCore APP",
+  "authors": [ "Alireza Paridar" ],
+  "owners": ["Alireza Paridar"],
+  "tags": [ "FormulaEngine.Net C#FormulaEngine DotNetFormulaEngine .NetFormulaEngine dnxFormulaEngine dnxCoreFormulaEngine" ],
+  "projectUrl": "https://github.com/AlirezaP/FormulaEngine.Net",
+  "licenseUrl": "",
+  "releaseNotes": "Fixed Bug. Compile For .NetFramework And .NetCore.",
+
+  "frameworks": {
+    "net451": { },
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Collections.NonGeneric": "4.0.0",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Text.RegularExpressions": "4.0.10",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}
